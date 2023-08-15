@@ -15,6 +15,7 @@ class Car:
     def move(self):
         self.position += 1
     
+    
     def change_lane(self, other_car):
         if self.lane != other_car.lane:
             self.message = "Don't change lane!"
